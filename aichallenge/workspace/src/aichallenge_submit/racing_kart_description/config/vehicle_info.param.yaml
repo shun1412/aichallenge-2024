@@ -1,6 +1,7 @@
 /**:
   ros__parameters:
-    wheel_radius: 0.255
+    # wheel_radius: 0.255
+    wheel_radius: 100
     wheel_width: 0.196
     wheel_base: 2.14 # between front wheel center and rear wheel center
     wheel_tread: 0.975 # between left wheel center and right wheel center
