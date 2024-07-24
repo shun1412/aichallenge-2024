@@ -5,6 +5,7 @@ from std_msgs.msg import Bool
 from autoware_auto_vehicle_msgs.srv import ControlModeCommand
 
 # Workaround because the simulator cannot use the service.
+# Workaround because the simulator cannot use the service.
 class ControlModeAdapterNode(rclpy.node.Node):
     def __init__(self):
         super().__init__("control_mode_adapter")
